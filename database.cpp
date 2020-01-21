@@ -176,7 +176,6 @@ void search_record(char** word){
           printf("%-*d",ssize,ifeild);
         }
         else{
-          printf("\033[0");
           fread(&ffeild,1,sizeof(float),rp);
           printf("%-*f",ssize,ffeild);
         }
